@@ -1,0 +1,330 @@
+<svg version="1.1" baseProfile="full" width="1724.0" height="712.0" viewbox="0 0 1724 712" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ev="http://www.w3.org/2001/xml-events">
+		<desc >
+	
+	[Characters
+	|Dominant Hand: (Yes/No);(Not really needed in Version 1)
+	|[Mana|Mana - Mana Cost]
+	[Mana Cost
+	|Spell Name: (Insert Name)
+	|Attribute: (Insert Attribute)
+	|Mana Cost: (Base or Attribute Mana Cost)
+	]
+	[Attribute]
+	[Insert Character&apos;s Attribute] 
+	[Weapon Only Users]
+	[Attribute]-&gt;[Insert Character&apos;s Attribute] 
+	[Attribute] -&gt; [Weapon Only Users]
+	[Willpower Boost|(Default 25%)]
+	[Attribute Mana Cost
+	|Same Attribute: Only 5% mana drain + 25% energy boost per spell
+	|2nd Attribute: Base +10% mana drain + 5% energy boost per spell
+	|3rd Attribute: Base +15% mana drain + 5% boost
+	|Opposite Attribute: Base +50% mana drain + 0% energy boost (because Fire &gt; Wind)
+	]
+	[Base Mana Cost|Spell&apos;s Base Mana Cost only;(For Weapon Only Users, Mana Cost is Default Spell Mana Cost.)]
+	[Mana] -&gt; [Mana Cost]
+	[Mana Cost] -&gt; Weapons Only User [Base Mana Cost]
+	[Mana Cost] -&gt; Magic User[Attribute Mana Cost]
+	[List of Spells|Insert List of Spells]
+	[Fire]
+	[Water]
+	[Earth]
+	[Wind]
+	[Attribute Mana Cost]&lt;:- [Fire]
+	[Attribute Mana Cost]&lt;:- [Water]
+	[Attribute Mana Cost]&lt;:- [Earth]
+	[Attribute Mana Cost]&lt;:- [Wind]
+	[Base Mana Cost]&lt;:- [List of Spells]
+	[Attribute Mana Cost]&lt;:- [List of Spells]
+	[Willpower Boost] &lt;:- [Attribute Mana Cost]
+	[Attribute] &lt;:- [Attribute Mana Cost]
+	]
+	
+	</desc>
+	<g stroke-width="1.0" text-align="left" font="12pt Helvetica, Arial, sans-serif" font-size="12pt" font-family="Helvetica" font-weight="bold" font-style="normal">
+			<g transform="translate(0.5, 0.5)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" stroke-width="3.0" stroke-linejoin="round" stroke-linecap="round" stroke="#33322E">
+				<g stroke="transparent" fill="transparent">
+					<rect x="0.0" y="0.0" height="712.0" width="1724.0" stroke="none"></rect>
+				</g>
+			<g transform="translate(8, 8)" fill="#33322E">
+					<g transform="translate(20, 20)">
+						<g data-name="Characters">
+							<g fill="#eee8d5" stroke="#33322E" data-name="Characters">
+								<rect x="0.0" y="0.0" height="656.0" width="1668.0" data-name="Characters"></rect>
+							<path d="M0.0 31.0 L1668.0 31.0" fill="none" data-name="Characters"></path>
+							<path d="M0.0 77.0 L1668.0 77.0" fill="none" data-name="Characters"></path>
+							</g>
+						<g transform="translate(0, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Characters">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Characters">
+									<text x="826.0" y="13.5" stroke="none" text-anchor="middle" data-name="Characters">Characters</text>
+								
+								</g>
+							</g>
+						<g transform="translate(0, 31)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Characters">
+								<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Characters">
+									<text x="0.0" y="13.5" stroke="none" data-name="Characters">Dominant Hand: (Yes/No)</text>
+								<text x="0.0" y="28.5" stroke="none" data-name="Characters">(Not really needed in Version 1)</text>
+								
+								</g>
+							</g>
+						<g transform="translate(0, 77)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Characters">
+								<g transform="translate(8, 8)" fill="#33322E" data-name="Characters">
+									<g transform="translate(20, 20)" fill="#eee8d5" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Characters">
+										<path d="M1293.5 179.5 L1293.5 246 L1293.5 321.3333333333333 L1293.5 321.3 " fill="none" data-name="Characters"></path>
+									<path d="M1288.2 314.7 L1293.5 321.3 L1298.8 314.7 L1293.5 328.0 Z" data-name="Characters"></path>
+									<path d="M1335.0 178.5 L1528.5 246 L1528.5 321.3333333333333 L1528.5 321.3 " fill="none" data-name="Characters"></path>
+									<path d="M1523.2 314.7 L1528.5 321.3 L1533.8 314.7 L1528.5 328.0 Z" data-name="Characters"></path>
+									<path d="M261.0 62.0 L261 82 L261 95.33333333333333 L261.0 95.3 " fill="none" data-name="Characters"></path>
+									<path d="M255.7 88.7 L261.0 95.3 L266.3 88.7 L261.0 102.0 Z" data-name="Characters"></path>
+									<text x="82.2" y="297.0" stroke="none" data-name="Characters">Weapons Only User</text>
+									<path d="M245.9 226.0 L241 246 L241 298.3333333333333 L241.0 298.3 " fill="none" data-name="Characters"></path>
+									<path d="M235.7 291.7 L241.0 298.3 L246.3 291.7 L241.0 305.0 Z" data-name="Characters"></path>
+									<text x="605.1" y="258.0" stroke="none" data-name="Characters">Magic User</text>
+									<path d="M418.0 210.7 L536.5 246 L590.7844313246644 263.9111067822497 L590.8 263.9 " fill="none" data-name="Characters"></path>
+									<path d="M582.8 266.9 L590.8 263.9 L586.1 256.8 L597.1 266.0 Z" data-name="Characters"></path>
+									<path d="M618.7 425.8 L579.25 441 L579.25 476.5 L579.3 476.5 " fill="none" data-name="Characters"></path>
+									<path d="M620.6 430.8 L618.7 425.8 L616.7 420.8 L631.1 421.0 Z" data-name="Characters"></path>
+									<path d="M832.0 434.3 L832 441 L832 476.5 L832.0 476.5 " fill="none" data-name="Characters"></path>
+									<path d="M837.3 434.3 L832.0 434.3 L826.7 434.3 L832.0 421.0 Z" data-name="Characters"></path>
+									<path d="M919.8 430.4 L930.5 441 L930.5 476.5 L930.5 476.5 " fill="none" data-name="Characters"></path>
+									<path d="M923.5 426.6 L919.8 430.4 L916.0 434.2 L910.3 421.0 Z" data-name="Characters"></path>
+									<path d="M998.5 427.0 L1026.5 441 L1026.5 476.5 L1026.5 476.5 " fill="none" data-name="Characters"></path>
+									<path d="M1000.9 422.2 L998.5 427.0 L996.1 431.7 L986.6 421.0 Z" data-name="Characters"></path>
+									<path d="M241.0 395.3 L241 441 L248.84313725490196 461 L248.8 461.0 " fill="none" data-name="Characters"></path>
+									<path d="M246.3 395.3 L241.0 395.3 L235.7 395.3 L241.0 382.0 Z" data-name="Characters"></path>
+									<path d="M547.5 424.7 L490.25 441 L336.5 475.20392584514724 L336.5 475.2 " fill="none" data-name="Characters"></path>
+									<path d="M549.0 429.8 L547.5 424.7 L546.1 419.5 L560.4 421.0 Z" data-name="Characters"></path>
+									<path d="M832.0 208.3 L832 246 L832 266 L832.0 266.0 " fill="none" data-name="Characters"></path>
+									<path d="M837.3 208.3 L832.0 208.3 L826.7 208.3 L832.0 195.0 Z" data-name="Characters"></path>
+									<path d="M1239.4 183.2 L1062.75 246 L1015.4166666666666 266 L1015.4 266.0 " fill="none" data-name="Characters"></path>
+									<path d="M1241.2 188.2 L1239.4 183.2 L1237.7 178.2 L1252.0 178.7 Z" data-name="Characters"></path>
+									<g data-name="Attribute Mana Cost">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Attribute Mana Cost">
+												<rect x="522.0" y="266.0" height="155.0" width="620.0" data-name="Attribute Mana Cost"></rect>
+											<path d="M522.0 297.0 L1142.0 297.0" fill="none" data-name="Attribute Mana Cost"></path>
+											<path d="M522.0 328.0 L1142.0 328.0" fill="none" data-name="Attribute Mana Cost"></path>
+											<path d="M522.0 359.0 L1142.0 359.0" fill="none" data-name="Attribute Mana Cost"></path>
+											<path d="M522.0 390.0 L1142.0 390.0" fill="none" data-name="Attribute Mana Cost"></path>
+											</g>
+										<g transform="translate(522, 266)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Attribute Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Attribute Mana Cost">
+													<text x="302.0" y="13.5" stroke="none" text-anchor="middle" data-name="Attribute Mana Cost">Attribute Mana Cost</text>
+												
+												</g>
+											</g>
+										<g transform="translate(522, 297)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Attribute Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Attribute Mana Cost">
+													<text x="0.0" y="13.5" stroke="none" data-name="Attribute Mana Cost">Same Attribute: Only 5% mana drain + 25% energy boost per spell</text>
+												
+												</g>
+											</g>
+										<g transform="translate(522, 328)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Attribute Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Attribute Mana Cost">
+													<text x="0.0" y="13.5" stroke="none" data-name="Attribute Mana Cost">2nd Attribute: Base +10% mana drain + 5% energy boost per spell</text>
+												
+												</g>
+											</g>
+										<g transform="translate(522, 359)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Attribute Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Attribute Mana Cost">
+													<text x="0.0" y="13.5" stroke="none" data-name="Attribute Mana Cost">3rd Attribute: Base +15% mana drain + 5% boost</text>
+												
+												</g>
+											</g>
+										<g transform="translate(522, 390)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Attribute Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Attribute Mana Cost">
+													<text x="0.0" y="13.5" stroke="none" data-name="Attribute Mana Cost">Opposite Attribute: Base +50% mana drain + 0% energy boost (because Fire &gt; Wind)</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Mana Cost">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Mana Cost">
+												<rect x="104.0" y="102.0" height="124.0" width="314.0" data-name="Mana Cost"></rect>
+											<path d="M104.0 133.0 L418.0 133.0" fill="none" data-name="Mana Cost"></path>
+											<path d="M104.0 164.0 L418.0 164.0" fill="none" data-name="Mana Cost"></path>
+											<path d="M104.0 195.0 L418.0 195.0" fill="none" data-name="Mana Cost"></path>
+											</g>
+										<g transform="translate(104, 102)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Mana Cost">
+													<text x="149.0" y="13.5" stroke="none" text-anchor="middle" data-name="Mana Cost">Mana Cost</text>
+												
+												</g>
+											</g>
+										<g transform="translate(104, 133)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Mana Cost">
+													<text x="0.0" y="13.5" stroke="none" data-name="Mana Cost">Spell Name: (Insert Name)</text>
+												
+												</g>
+											</g>
+										<g transform="translate(104, 164)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Mana Cost">
+													<text x="0.0" y="13.5" stroke="none" data-name="Mana Cost">Attribute: (Insert Attribute)</text>
+												
+												</g>
+											</g>
+										<g transform="translate(104, 195)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Mana Cost">
+													<text x="0.0" y="13.5" stroke="none" data-name="Mana Cost">Mana Cost: (Base or Attribute Mana Cost)</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Mana">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Mana">
+												<rect x="187.0" y="0.0" height="62.0" width="148.0" data-name="Mana"></rect>
+											<path d="M187.0 31.0 L335.0 31.0" fill="none" data-name="Mana"></path>
+											</g>
+										<g transform="translate(187, 0)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Mana">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Mana">
+													<text x="66.0" y="13.5" stroke="none" text-anchor="middle" data-name="Mana">Mana</text>
+												
+												</g>
+											</g>
+										<g transform="translate(187, 31)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Mana">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Mana">
+													<text x="0.0" y="13.5" stroke="none" data-name="Mana">Mana - Mana Cost</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Willpower Boost">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Willpower Boost">
+												<rect x="762.0" y="133.0" height="62.0" width="141.0" data-name="Willpower Boost"></rect>
+											<path d="M762.0 164.0 L903.0 164.0" fill="none" data-name="Willpower Boost"></path>
+											</g>
+										<g transform="translate(762, 133)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Willpower Boost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Willpower Boost">
+													<text x="62.5" y="13.5" stroke="none" text-anchor="middle" data-name="Willpower Boost">Willpower Boost</text>
+												
+												</g>
+											</g>
+										<g transform="translate(762, 164)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Willpower Boost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Willpower Boost">
+													<text x="0.0" y="13.5" stroke="none" data-name="Willpower Boost">(Default 25%)</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Base Mana Cost">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Base Mana Cost">
+												<rect x="0.0" y="305.0" height="77.0" width="482.0" data-name="Base Mana Cost"></rect>
+											<path d="M0.0 336.0 L482.0 336.0" fill="none" data-name="Base Mana Cost"></path>
+											</g>
+										<g transform="translate(0, 305)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Base Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Base Mana Cost">
+													<text x="233.0" y="13.5" stroke="none" text-anchor="middle" data-name="Base Mana Cost">Base Mana Cost</text>
+												
+												</g>
+											</g>
+										<g transform="translate(0, 336)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="Base Mana Cost">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="Base Mana Cost">
+													<text x="0.0" y="13.5" stroke="none" data-name="Base Mana Cost">Spell&apos;s Base Mana Cost only</text>
+												<text x="0.0" y="28.5" stroke="none" data-name="Base Mana Cost">(For Weapon Only Users, Mana Cost is Default Spell Mana Cost.)</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="List of Spells">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="List of Spells">
+												<rect x="186.0" y="461.0" height="62.0" width="151.0" data-name="List of Spells"></rect>
+											<path d="M186.0 492.0 L337.0 492.0" fill="none" data-name="List of Spells"></path>
+											</g>
+										<g transform="translate(186, 461)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="List of Spells">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="List of Spells">
+													<text x="67.5" y="13.5" stroke="none" text-anchor="middle" data-name="List of Spells">List of Spells</text>
+												
+												</g>
+											</g>
+										<g transform="translate(186, 492)" font-family="Helvetica" font-size="12pt" font-weight="normal" font-style="normal" data-name="List of Spells">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="left" data-name="List of Spells">
+													<text x="0.0" y="13.5" stroke="none" data-name="List of Spells">Insert List of Spells</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Attribute">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Attribute">
+												<rect x="1252.0" y="149.0" height="31.0" width="83.0" data-name="Attribute"></rect>
+											</g>
+										<g transform="translate(1252, 149)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Attribute">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Attribute">
+													<text x="33.5" y="13.5" stroke="none" text-anchor="middle" data-name="Attribute">Attribute</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Insert Character&apos;s Attribute">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Insert Character&apos;s Attribute">
+												<rect x="1182.0" y="328.0" height="31.0" width="223.0" data-name="Insert Character&apos;s Attribute"></rect>
+											</g>
+										<g transform="translate(1182, 328)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Insert Character&apos;s Attribute">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Insert Character&apos;s Attribute">
+													<text x="103.5" y="13.5" stroke="none" text-anchor="middle" data-name="Insert Character&apos;s Attribute">Insert Character&apos;s Attribute</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Weapon Only Users">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Weapon Only Users">
+												<rect x="1445.0" y="328.0" height="31.0" width="167.0" data-name="Weapon Only Users"></rect>
+											</g>
+										<g transform="translate(1445, 328)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Weapon Only Users">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Weapon Only Users">
+													<text x="75.5" y="13.5" stroke="none" text-anchor="middle" data-name="Weapon Only Users">Weapon Only Users</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Fire">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Fire">
+												<rect x="557.0" y="477.0" height="31.0" width="45.0" data-name="Fire"></rect>
+											</g>
+										<g transform="translate(557, 477)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Fire">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Fire">
+													<text x="14.5" y="13.5" stroke="none" text-anchor="middle" data-name="Fire">Fire</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Water">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Water">
+												<rect x="802.0" y="477.0" height="31.0" width="60.0" data-name="Water"></rect>
+											</g>
+										<g transform="translate(802, 477)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Water">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Water">
+													<text x="22.0" y="13.5" stroke="none" text-anchor="middle" data-name="Water">Water</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Earth">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Earth">
+												<rect x="902.0" y="477.0" height="31.0" width="57.0" data-name="Earth"></rect>
+											</g>
+										<g transform="translate(902, 477)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Earth">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Earth">
+													<text x="20.5" y="13.5" stroke="none" text-anchor="middle" data-name="Earth">Earth</text>
+												
+												</g>
+											</g>
+										</g>
+									<g data-name="Wind">
+											<g fill="#fdf6e3" stroke="#33322E" data-name="Wind">
+												<rect x="999.0" y="477.0" height="31.0" width="55.0" data-name="Wind"></rect>
+											</g>
+										<g transform="translate(999, 477)" font-family="Helvetica" font-size="12pt" font-weight="bold" font-style="normal" data-name="Wind">
+												<g transform="translate(8, 8)" fill="#33322E" text-align="center" data-name="Wind">
+													<text x="19.5" y="13.5" stroke="none" text-anchor="middle" data-name="Wind">Wind</text>
+												
+												</g>
+											</g>
+										</g>
+									</g>
+								</g>
+							</g>
+						</g>
+					</g>
+				</g>
+			</g>
+		</g>
+	</svg>
